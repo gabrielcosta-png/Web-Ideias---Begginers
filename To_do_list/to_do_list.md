@@ -4,7 +4,7 @@ Small projects to improve programming and English skills
 
 ### Tier-1: Beginner Projects - Projetos Inicias 
 
-|| Name   | Short Description |
-| [To do list](./To_do_list/To_do_list.md)    | ---       |
-| Crase  | `         |
-| Barra  | \|        |
+| Name  |  Short Description  |
+| ------------------- | ------------------- |
+|  [To do list](./To_do_list/To_do_list.md) |  Célula de conteúdo |
+|  Célula de conteúdo |  Célula de conteúdo |
