@@ -1,6 +1,9 @@
-# Web-Ideias---Begginers
-<<<<<<< HEAD:To_do_list/to_do_list.md
-111231231231
-=======
-Alou
->>>>>>> f4c3d12589fcc950aa4e00f4b654565aab761b6a:To_do_list/README.md
+## :ledger: Web-Ideias---Begginers
+Pequenos projetos para aperfeiçoamento de skills de programação e inglês
+Small projects to improve programming and English skills
+
+### Tier-1: Beginner Projects - Projetos Inicias 
+
+| Name                                                                              | Short Description                                          |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| [To do list](./To_do_list/To_do_list.md)                                   | Simple todo list                         |
