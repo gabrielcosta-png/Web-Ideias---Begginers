@@ -1,10 +1,2 @@
-## :ledger: Web-Ideias---Begginers
-Pequenos projetos para aperfeiçoamento de skills de programação e inglês
-Small projects to improve programming and English skills
-
-### Tier-1: Beginner Projects - Projetos Inicias 
-
-| Name  |  Short Description  |
-| ------------------- | ------------------- |
-|  [To do list](./To_do_list/To_do_list.md) |  Célula de conteúdo |
-|  Célula de conteúdo |  Célula de conteúdo |
+## :ledger: To do list
+Projeto inspirado na aula starter de javascript do Rockseat/E no designer do Carlos da Costa ("https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5")
