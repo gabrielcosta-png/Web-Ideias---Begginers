@@ -1,4 +1,4 @@
-## :ledger: Web-Ideias---Begginers
+## :floppy_disk: Web-Ideias---Begginers
 Pequenos projetos para aperfeiçoamento de skills de programação e inglês
 Small projects to improve programming and English skills
 
