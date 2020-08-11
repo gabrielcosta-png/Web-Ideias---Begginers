@@ -6,5 +6,5 @@ Small projects to improve programming and English skills
 
 | Name  |  Short Description  |
 | ------------------- | ------------------- |
-|  [To do list](https://github.com/gabrielcosta-png/Web-Ideias---Begginers/blob/master/To_do_list/to_do_list.md) |  Simple Todo list |
+|  [To do list](https://github.com/gabrielcosta-png/Web-Ideias---Begginers/blob/master/To_do_list/README.md) |  Simple Todo list |
 |  Célula de conteúdo |  Célula de conteúdo |
