@@ -1,7 +1,7 @@
 ## :bookmark_tabs: To do list
 Projeto inspirado na aula starter de javascript do Rockseat e no designer do Carlos da Costa [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
 
-![To do List Image](./to_do_list.png)
+![To do List Image](./calc.png)
 # Conceitos usados
 ## HTML
   - Elemento Input type,
