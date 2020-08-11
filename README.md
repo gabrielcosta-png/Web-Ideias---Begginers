@@ -7,4 +7,4 @@ Small projects to improve programming and English skills
 | Name  |  Short Description  |
 | ------------------- | ------------------- |
 |  [To do list](https://github.com/gabrielcosta-png/Web-Ideias---Begginers/blob/master/To_do_list/README.md) |  Simple Todo list |
-|  [Calc](https://github.com/gabrielcosta-png/Web-Ideias---Begginers/blob/master/calc/README.md) |  Simple Calculator |
+|  [Calc](https://github.com/gabrielcosta-png/Web-Ideias---Begginers/blob/master/To_do_list/README.md) |  Simple Calculator |
