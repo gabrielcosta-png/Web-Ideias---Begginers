@@ -1,7 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap";
 
 body{
-    margin: 0;
     border: 0;
     padding: 0;
     background-image: linear-gradient(#61ffa8,#40e648);
@@ -16,23 +15,22 @@ body{
 }
 
 .background{
-    background-color: white;
+    background: white
 }
-
 input[type="text"]{
     width: 310px;
     height: 30px;
     outline: 0;
     border: none;
-    font-size: 1.5em;
-    background: #fff;
+    font-size: 20px;
     color: #2f4f4f;
+    background: white
   }
 
 ul{
-    background-color: #fff;
     padding: 15px;
     list-style: none;
+    background-color: white
 }
 
 a{
@@ -41,27 +39,18 @@ a{
     color: #ff6161;
     font-size: 1.2em;
     cursor: pointer;
-}
-
-input[type="text"]{
-    width: 310px;
-    height: 50px;
-    outline: 0;
-    border: none;
     font-size: 16px;
-    background: #fff;
-    color: #2f4f4f;
+    color: #53BDFF;
 }
 
 h1{
     text-align: center;
-    color: #fff;
   }
 
   button{
     font-size: 16px;
     color: #53BDFF;
-    background-color: #fff;
+    background: white
     outline: 0;
     border: none;   
     float: inherit;   

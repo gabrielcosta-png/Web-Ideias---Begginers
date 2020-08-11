@@ -1,5 +1,46 @@
 ## :bookmark_tabs: To do list
-## Projeto inspirado na aula starter de javascript do Rockseat e no designer do Carlos da Costa [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
+Projeto inspirado na aula starter de javascript do Rockseat e no designer do Carlos da Costa [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
+
+
+# Conceitos usados
+## HTML
+  - Elemento Input type,
+  - Elemento Button,
+  - Importar javascript de outra pagina
+## Javascript
+- Variavel,
+- QuerySelector,
+- JSON,
+- createElement,
+- innerHTML,
+- For(of)
+- indexOf
+- setAttribute
+- appendChild
+- input.value,
+- .push
+- savetoStorage
+- .onclick 
+- splice
+- localStorage.setItem 
+- JSON.stringify
+
+## CSS
+- Margin,
+- border,
+- padding,
+- background-image,
+- background-repeat,
+- font-family
+- color,
+- widht,
+- display,
+- justify-content
+- flex-direction
+- cursos
+- :hover
+
+
 
 
 ### HTML
@@ -50,3 +91,24 @@
 |  todos.splice | Recebe a posição no valor e remove um valor na proxima posição   | todos.splice(pos,1);
 |  function savetoStorage(){}| Armazenamento local   | function savetoStorage(){}
 |   localStorage.setItem('list_todos', JSON.stringify(todos))| Armazenar elementos no formato json   |  localStorage.setItem('list_todos', JSON.stringify(todos))
+[Fonte curso starter Rockseat](https://rocketseat.com.br/)
+
+### CSS
+(styles.html)
+| PROPRIEDADE | Função 
+| ------ | ------ |
+| margin |  Regular espaço ao redor dos elementos| 
+| border | Regular espaço ao redor dos elementos | 
+| padding | Regular espaço ao redor dos elementos |
+| background-image| Definir plano de fundo como imagem(linear-gradient:Criar uma gradiente linear)| | background-color | Definir cor de plano de fundo  |
+| background-repeat| Regular a repitação do plano de fundo | 
+| font-family | Fonte utilizada  |
+| color | Cor da fonte  | 
+| width | Regular a altura do elemento  | 
+| display | especifica o comportamento de exibição  | 
+| justify-content | propriedade alinha os itens   | 
+| flex-direction | Propriedade especifica a direção dos itens flexíveis.  | 
+| cursor| Definir cursor ápos o usario passar o mouse pelo elemnto  | 
+| :hover | Ação ápos o usario passar o mouse pelo elemento   | 
+[Fonte w3schools](https://www.w3schools.com/cssref/)
+
