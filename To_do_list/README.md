@@ -1,14 +1,32 @@
 ## :bookmark_tabs: To do list
-Projeto inspirado na aula starter de javascript do Rockseat e no designer do Carlos da Costa [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
+Project inspired by Rockseat's javascript starter class and Carlos da Costa's designer Carlos da Costa [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
 
 ![To do List Image](./to_do_list.png)
-# Conceitos usados
+
+# Algorithm
+
+- HTML,
+  - Caixa de texto para escrever a tarefa;
+  - Botão para adicionar uma tarefa;
+  - Elemento para lista,
+
+
+- Javascript
+  - Coletar dados do HTML(query.Selector);
+  - Renderizar lista no html;
+  - Adicionar lista no html,
+  - Remover lista no html,
+  - Salvar lista no html,
+
+
+
+# Elements used
 ## HTML
-  - Elemento Input type,
-  - Elemento Button,
-  - Importar javascript de outra pagina
+  - Input type,
+  - Button,
+  - Import Javascript page and Css page
 ## Javascript
-- Variavel,
+- Variable,
 - QuerySelector,
 - JSON,
 - createElement,
@@ -18,9 +36,9 @@ Projeto inspirado na aula starter de javascript do Rockseat e no designer do Car
 - setAttribute
 - appendChild
 - input.value,
-- .push
+- push
 - savetoStorage
-- .onclick 
+- onclick 
 - splice
 - localStorage.setItem 
 - JSON.stringify
@@ -111,4 +129,3 @@ Projeto inspirado na aula starter de javascript do Rockseat e no designer do Car
 | cursor| Definir cursor ápos o usario passar o mouse pelo elemnto  | 
 | :hover | Ação ápos o usario passar o mouse pelo elemento   | 
 [Fonte w3schools](https://www.w3schools.com/cssref/)
-
