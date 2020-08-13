@@ -1,5 +1,5 @@
 ## :bookmark_tabs: To do list
-Project inspired by Rockseat's javascript starter class and Carlos da Costa's designer Carlos da Costa [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
+Project inspired by Rockseat's javascript starter class and Carlos da Costa's designer [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
 
 ![To do List Image](./to_do_list.png)
 

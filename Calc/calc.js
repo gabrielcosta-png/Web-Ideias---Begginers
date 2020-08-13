@@ -10,5 +10,5 @@ function reseta(){
 
 function calcula(){
 resultado = eval(valor);
-document.calc.visor.value = resultado;
+document.calc.visor.value = resultado.toLocaleString('pt-BR');
 }
