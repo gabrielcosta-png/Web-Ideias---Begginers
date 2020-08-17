@@ -1,15 +1,13 @@
 ## :bookmark_tabs: To do list
 
-Project inspired by Rockseat's javascript starter class and Carlos da Costa's designer [Carlos da Costa](https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5)
-
 ![To do List Image](./to_do_list.png)
 
 # Algorithm
 
 - HTML,
-  - Caixa de texto para escrever a tarefa;
-  - Botão para adicionar uma tarefa;
-  - Elemento para lista,
+  - Caixa de texto para adicionar o resultado;
+  - Botão para adicionar se é maior que 0.05 ou menor que 0.05 ;
+  - Botão para o resultado e limpar os dados,
 
 * Javascript
   - Coletar dados do HTML(query.Selector);

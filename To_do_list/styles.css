@@ -1,73 +1,108 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap";
 
-body{
-    border: 0;
-    padding: 0;
-    background-image: linear-gradient(#61ffa8,#40e648);
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-    color: #0f222d;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
+:root {
+  --black: #100a1c;
+  --primary: #61ffa8;
+  --secondary: #285f41;
+  --white: #f0f0f9;
 }
 
-.background{
-    background: white
-}
-input[type="text"]{
-    width: 310px;
-    height: 30px;
-    outline: 0;
-    border: none;
-    font-size: 20px;
-    color: #2f4f4f;
-    background: white
-  }
-
-ul{
-    padding: 15px;
-    list-style: none;
-    background-color: white
+body {
+  border: 0;
+  padding: 0;
+  background-color: var(--black);
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: var(--primary);
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
 
-a{
-    float: right;
-    text-align: right;
-    color: #ff6161;
-    font-size: 1.2em;
-    cursor: pointer;
-    font-size: 16px;
-    color: #53BDFF;
+input[type="text"] {
+  width: 310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 20px;
+  color: var(--secondary);
+  background: white;
+  border-radius: 5px;
 }
 
-h1{
-    text-align: center;
+ul {
+  padding: 15px;
+  list-style: none;
+  background-color: white;
+  border-radius: 15px;
+}
+
+a {
+  float: right;
+  text-align: right;
+  color: var(--secondary);
+  font-size: 1.2em;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--secondary);
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  color: var(--primary);
+
+  border: none;
+  background: transparent;
+
+  text-transform: uppercase;
+  font-size: 12px;
+
+  padding: 16px;
+
+  outline: none;
+
+  position: relative;
+}
+
+button::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  content: "";
+  height: 2px;
+  width: 0%;
+
+  background-color: var(--primary);
+
+  transition: 0.4s;
+}
+
+button:hover::after,
+button.active::after {
+  width: 100%;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
   }
 
-  button{
-    font-size: 16px;
-    color: #53BDFF;
-    background: white;
-    outline: 0;
-    border: none;   
-    float: inherit;   
+  to {
+    opacity: 1;
   }
+}
 
-  button:hover,
-  a:hover{
-    color: yellow;
-  }
-
-
-  li{
-    border-bottom: 1px solid #53BDFF;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    font-size: 15px;
-    color: #2f4f4f;
-  }
-
-  
+li {
+  border-bottom: 1px solid var(--secondary);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 15px;
+  color: #2f4f4f;
+}

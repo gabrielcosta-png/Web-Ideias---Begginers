@@ -10,11 +10,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-*,
-button,
-input {
   font-family: "Roboto", sans-serif;
 }
 
@@ -23,9 +18,11 @@ body {
 
   background-color: var(--black);
   color: var(--white);
+  margin: 0 auto;
+  width: 320px;
 }
 
-header {
+h3 {
   margin-top: 32px;
 
   text-align: center;
@@ -33,18 +30,20 @@ header {
   color: var(--primary);
 }
 
-main {
+form,
+div .result {
   margin: 0 auto;
   width: 320px;
 }
 
-.tab-links {
-  margin-bottom: 32px;
+input[type="text"] {
+  width: 150px;
+  font-size: 16px;
 }
 
 button {
   color: var(--white);
-
+  width: 300px;
   border: none;
   background: transparent;
 
@@ -75,10 +74,6 @@ button::after {
 button:hover::after,
 button.active::after {
   width: 100%;
-}
-
-.tab-content > section {
-  animation: up 1s;
 }
 
 @keyframes up {
