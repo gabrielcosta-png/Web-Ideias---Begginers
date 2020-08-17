@@ -4,8 +4,6 @@
 
 Hi, I am beginner developer.I make this repository with small projects to improve my programming and English skills
 
-Olá, sou um desenvolvedor iniciante. Eu fiz este repositório com pequenos projetos para melhorar as minhas habilidades de programação e inglês.
-
 ### Beginner Projects - Projetos Inicias
 
 | Name                                                                                                         | Short Description                      |
