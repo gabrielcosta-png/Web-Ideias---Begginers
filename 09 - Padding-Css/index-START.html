@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Scoped CSS Variables and JS</title>
+  </head>
+  <body>
+    <h2>Update CSS Variables with <span class="hl">JS</span></h2>
+
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input
+        id="spacing"
+        type="range"
+        name="spacing"
+        min="10"
+        max="200"
+        value="10"
+        data-sizing="px"
+      />
+
+      <label for="brightness">Brightness:</label>
+      <input
+        id="brightness"
+        type="range"
+        name="brightness"
+        min="0"
+        max="100%"
+        value="1%"
+        data-sizing="%"
+      />
+
+      <label for="base">Base Color</label>
+      <input id="base" type="color" name="base" value="#ffc600" />
+    </div>
+
+    <img src="https://source.unsplash.com/collection/1599044/500x500" />
+  </body>
+  <script src="main.js"></script>
+</html>

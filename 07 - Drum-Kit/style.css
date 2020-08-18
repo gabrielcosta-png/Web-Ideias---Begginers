@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+  background: #b0b9c0;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}

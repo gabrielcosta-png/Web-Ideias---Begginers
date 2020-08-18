@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Drum Kit</h1>
+    <div class="nowplaying"></div>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">
+          <img src="img/crash.png" />
+        </span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound"> <img src="img/hi-hat.png" /></span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound"> <img src="img/floor-tom.png" /></span>
+      </div>
+      <div data-key="87" class="key">
+        <kbd>W</kbd>
+        <span class="sound"> <img src="img/kick.png" /></span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound"><img src="img/left-tom.png" /></span>
+      </div>
+      <div data-key="73" class="key">
+        <kbd>I</kbd>
+        <span class="sound"><img src="img/right-tom.png" /></span>
+      </div>
+
+      <div data-key="32" class="key">
+        <kbd>SPACE</kbd>
+        <span class="sound"><img src="img/snare.png" /></span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/Crash.mp3"></audio>
+    <audio data-key="83" src="sounds/Hi-Hat-Closed.mp3"></audio>
+    <audio data-key="68" src="sounds/Floor-Tom.mp3"></audio>
+    <audio data-key="87" src="sounds/Kick.mp3"></audio>
+    <audio data-key="74" src="sounds/Small-Rack-Tom.mp3"></audio>
+    <audio data-key="73" src="sounds/Big-Rack-Tom.mp3"></audio>
+    <audio data-key="32" src="sounds/Snare.mp3"></audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
