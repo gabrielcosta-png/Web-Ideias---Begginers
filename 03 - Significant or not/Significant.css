@@ -1,5 +1,12 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap";
 
+:root {
+  --black: #24282f;
+  --primary: #61ffa8;
+  --secondary: #285f41;
+  --white: #f0f0f9;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   margin: 0px;
@@ -14,9 +21,14 @@ body {
   align-items: center;
 
   font-family: "Roboto", sans-serif;
-  background-image: linear-gradient(#61ffa8, #40e648);
+  background-color: var(--black);
 }
-
+h1 {
+  font-size: 40px;
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+}
 .container {
   margin: 2px;
   border: none;

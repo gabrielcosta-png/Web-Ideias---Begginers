@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400, 700, 300);
 
 :root {
-  --black: #130f0d;
+  --black: #24282f;
   --primary: #61ffa8;
+  --secondary: #285f41;
   --white: #f0f0f9;
+  --item-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.7);
 }
 
 * {

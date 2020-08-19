@@ -1,7 +1,12 @@
 :root {
-  --base: #ffc600;
+  --base: #61ffa8;
   --spacing: 10px;
   --brightness: 50%;
+  --black: #24282f;
+  --primary: #61ffa8;
+  --secondary: #285f41;
+  --white: #f0f0f9;
+  --item-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.7);
 }
 
 img {
@@ -16,9 +21,9 @@ img {
 
 body {
   text-align: center;
-  background: #193549;
-  color: white;
-  font-family: "helvetica neue", sans-serif;
+  background: var(--black);
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 50px;
 }

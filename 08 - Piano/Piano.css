@@ -1,10 +1,18 @@
+:root {
+  --black: #24282f;
+  --primary: #61ffa8;
+  --secondary: #285f41;
+  --white: #f0f0f9;
+  --item-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.7);
+}
+
 html {
-  background: #000;
+  background: var(--black);
   text-align: center;
 }
 
 h1 {
-  color: #fff;
+  color: var(--white);
   font-size: 50px;
   font-weight: 400;
   letter-spacing: 0.18em;
@@ -13,7 +21,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: var(--white);
   font-size: 24px;
   font-style: italic;
   font-weight: 400;
@@ -23,7 +31,7 @@ h2 {
 .nowplaying {
   font-size: 120px;
   line-height: 1;
-  color: #eee;
+  color: var(--white);
   text-shadow: 0 0 5rem #028ae9;
   transition: all 0.07s ease;
   min-height: 120px;
@@ -61,7 +69,7 @@ h2 {
   width: 6%;
   height: 60%;
   background: #000;
-  color: #eee;
+  color: var(--white);
   top: 0;
   z-index: 3;
 }
@@ -96,8 +104,8 @@ h2 {
 
 .playing {
   transform: scale(0.95);
-  border-color: #028ae9;
-  box-shadow: 0 0 1rem #028ae9;
+  border-color: var(--primary);
+  box-shadow: 0 0 1rem var(--primary);
 }
 
 .hints {
